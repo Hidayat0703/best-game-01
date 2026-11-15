@@ -10,7 +10,10 @@
 // sells them, calls twelve waves with a boss on waves 5, 10 and 12, and wins by
 // keeping the flame alive. Title screen with three difficulties, HUD, pause,
 // victory and game-over screens with restart, WebAudio sound, and deterministic
-// screenshot scenes behind ?shot=title|cover|boss|win.
+// screenshot scenes behind ?shot=title|cover|boss|win. Balance, measured with
+// the screenshot autopilot playing the real rules: Easy wins with full health,
+// Normal with 15 of 20 Sunspire health, Hard with 11 — a careful player wins,
+// a careless one leaks the Nightmaw.
 //
 // Serve it locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
